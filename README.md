@@ -17,8 +17,6 @@ Technologies
 
 [Node] - Node.js is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications.
 
-[Ascii Table] - Easy table output for node debugging, but you could probably do more with it, since its just a string.
-
 Installation
 ------------
 From the command line run the following commands:
