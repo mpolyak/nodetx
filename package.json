@@ -1,0 +1,38 @@
+{
+	"name": "NodeTx",
+	"description": "Bitcoin P2P Transaction Monitor",
+	"version": "0.1.0",
+	"license": "MIT",
+	"keywords": [
+	    "bitcoin",
+	    "network",
+	    "transaction",
+	    "monitor"
+	],
+	"author": {
+		"name": "Michael Polyak",
+		"email": "mpolyak@gmail.com",
+		"url": "http://github.com/mpolyak"
+	},
+	"homepage": "https://github.com/mpolyak/nodetx",
+	"repository": {
+	    "type": "git",
+	    "url": "https://github.com/mpolyak/nodetx.git"
+	},
+	"engines": {
+		"node": ">=0.10.26"
+	},
+	"main": "coffee/main",
+	"scripts": {
+	    "prepublish": "cake sbuild",
+	    "test": "cake test",
+	    "start": "node coffee/main"
+	},
+	"dependencies": {
+		"coffee-script": "1.7.x",
+		"bignum": "0.6.x"
+	},
+	"devDependencies": {
+		"mocha": "1.18.x"
+	}
+}
