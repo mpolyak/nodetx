@@ -3,7 +3,7 @@ NodeTx
 
 #####Bitcoin P2P Transactions Monitor
 
-It will log transaction and output addresses with BTC amounts to **STDOUT**.
+NodeTx will log transactions and output addresses with BTC amounts to **STDOUT**.
 
 Version
 -------
