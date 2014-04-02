@@ -33,7 +33,7 @@ if process.argv.length > 2
 		HOST = process.argv[2]
 
 	if process.argv.length > 3
-		POST = process.argv[3]
+		PORT = process.argv[3]
 else
 	console.log "Usage: #{process.argv[0]} #{process.argv[1]} <NODE IP> [NODE PORT]"
 
